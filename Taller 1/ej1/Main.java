@@ -11,7 +11,7 @@ public class Main {
         //Tengo que manejar el dato inicial para que me quede una lista
         int n = scanner.nextInt(); //cantidad de vendedores
         
-        int[] vendedores = new int[n+1]; //como quiero usar los valores de la lista, agrego una posicion fantasma a la cual no voy a acceder nunca, que seria la pos 0, pues 1<=n<2000
+        int[] vendedores = new int[n+1]; //como quiero usar los valores de la lista para calcular la longitud de la cadena de superiores, agrego una posicion fantasma a la cual no voy a acceder nunca, que seria la pos 0, pues 1<=n<2000
         
         for (int i=1;i<=n;i++) {
             vendedores[i] = scanner.nextInt(); //array de vendedores
